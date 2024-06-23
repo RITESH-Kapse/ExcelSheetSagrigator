@@ -1,4 +1,5 @@
 openpyxl
+pandas
 numpy
 streamlit
 opencv-python-headless
