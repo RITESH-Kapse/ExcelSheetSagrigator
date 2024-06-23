@@ -37,4 +37,8 @@ if uploaded_file:
             st.download_button(
                 label="Download segregated Excel file",
                 data=output_data,
-                file_na
+                file_name="segregated_data.xlsx",
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            )
+    except Exception as e:
+        st.error(f"An error occurred: {e}")
